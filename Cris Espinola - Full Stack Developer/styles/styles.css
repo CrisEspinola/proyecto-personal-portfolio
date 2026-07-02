@@ -7,28 +7,28 @@
 /* font-family: "Lora", serif; */
 
 /* fuente h1 */
-h1{
+.titulo-principal{
     color: #6F4E37;
     font-size: 3rem;
     font-family: "Playfair Display", serif;
     font-weight: 700;
 }
 /* fuente h2 */
-h2{
+.subtitulo{
     color: #A2673F;
     font-size: 2rem;
     font-family: "Lora", serif;
     font-weight: 500;
 }
 /* fuente h3 */
-h3{
+.nombre-producto{
     color: #6F4E37;
     font-size: 1.5rem;
     font-family: "Lora", serif;
     font-weight: 600;
 }
 /* fuente p */
-p{
+.cuerpo-texto{
     color: #2C2C2C;
     font-size: 1rem;
     font-family: "Lora", serif;
@@ -43,24 +43,24 @@ img{
     max-width: 100%;
 }
 /* navegacion */
-a{
+.link-menu{
     color: #6F4E37;
     font-family: "Lora", serif;
     text-decoration: none;
     margin: 10px;
 }
 /* footer */
-footer{
+.footer-principal{
     background-color: #6F4E37;
     padding: 10px;
 }
-footer p{
+.cuerpo-texto-footer{
     color: #F5F0E8;
 }
 /* alineacion */
-header{
+.encabezado{
     text-align: center;
 }
-main{
+.contenido-principal{
     text-align: center;
 }
