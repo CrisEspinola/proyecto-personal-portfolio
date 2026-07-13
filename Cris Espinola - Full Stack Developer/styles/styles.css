@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 /* playfair - importacion de fuente */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 /* font-family: "Playfair Display", serif; */
@@ -19,6 +24,7 @@
     font-size: 2rem;
     font-family: "Lora", serif;
     font-weight: 500;
+    margin-bottom: 20px;
 }
 /* fuente h3 */
 .nombre-producto{
@@ -37,10 +43,33 @@
 /* estilos generales */
 body{
     background-color: #F5F0E8;
-    margin: 20px;
 }
 img{
     max-width: 100%;
+}
+.seccion-inicio{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+.seccion-inicio figure{
+    flex: 2;
+}
+.seccion-inicio img{
+    width: 100%;
+    height: auto;
+}
+/* seccion menu */
+.seccion-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.seccion-menu article{
+    flex: 1 1 400px;
+    padding: 20px;
 }
 /* navegacion */
 .link-menu{
@@ -49,18 +78,31 @@ img{
     text-decoration: none;
     margin: 10px;
 }
+.menu-navegacion{
+    display: flex;
+    gap: 20px;
+}
 /* footer */
 .footer-principal{
     background-color: #6F4E37;
-    padding: 10px;
+    padding: 20px;
 }
 .cuerpo-texto-footer{
     color: #F5F0E8;
 }
 /* alineacion */
 .encabezado{
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
 .contenido-principal{
     text-align: center;
+    padding: 20px;
+}
+/* articulo inicio */
+.seccion-inicio article{
+    flex: 1;
+    padding: 20px;
 }
